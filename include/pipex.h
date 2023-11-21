@@ -119,7 +119,6 @@ ssize_t			s_write_fd(const void *buf, int fd, t_data *d);
 void			*s_alloc(void *pointer, t_alloc mode, t_data *d);
 void			track_alloc(t_data *d, void *pointer);
 void			free_data(t_data *d);
-void			free_str_array(char **array);
 
 // Facade for system call
 // Syscall: File descriptor
